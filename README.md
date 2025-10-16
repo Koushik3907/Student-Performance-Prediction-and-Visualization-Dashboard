@@ -28,10 +28,10 @@ An interactive Streamlit dashboard for analyzing and predicting student performa
 ### Dashboard Overview
 ![Dashboard Overview](images/dashboard_overview.png)
 
-### Visualization Example
+### Model Prediction Example
 ![Visualization Example](images/visualization_example.png)
 
-### Model Prediction and Feature Importance
+###  Feature Importance
 ![Prediction & Feature Importance](images/prediction_feature_importance.png)
 
 
