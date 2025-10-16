@@ -1,14 +1,37 @@
-# StudentPerformancePrediction-ML
-This is a simple machine learning project using classifiers for predicting factors which affect student grades, using data from CSV file
+# 🎓 Student Performance Prediction and Visualization Dashboard
+
+## Overview
+An interactive Streamlit dashboard for analyzing and predicting student performance. The application allows educators and analysts to visualize student data, explore trends, and predict performance classes (High, Medium, Low) using a Random Forest model, emphasizing grades and absence days for better accuracy.
+
+---
+
+## Features
+
+- **Dataset Upload**: Upload your student CSV dataset for analysis.  
+- **Data Preview & Info**: View dataset preview, column details, data types, and unique values.  
+- **Visualizations**: Interactive charts including:
+  - Class count  
+  - Semester-wise performance  
+  - Gender, nationality, grade, section, topic, and stage-wise performance  
+  - Absence days vs. class  
+- **Machine Learning Prediction**:
+  - Random Forest Classifier predicts student performance class.  
+  - Grades (`GradeID`) scaled 0–10 prioritized, followed by student absence days.  
+  - Provides model accuracy, classification report, and confusion matrix.  
+  - Feature importance chart reflects custom priorities.  
+- **Predict New Student Performance**: Input student details and predict performance class.
+
+---
+
+## Screenshots
+
+### Dashboard Overview
+![Dashboard Overview](images/dashboard_overview.png)
+
+### Visualization Example
+![Visualization Example](images/visualization_example.png)
+
+### Model Prediction and Feature Importance
+![Prediction & Feature Importance](images/prediction_feature_importance.png)
 
 
-In this Project, a dataset which has students from nationalities, different grade levels and also soe determining factors like,
-number of hands raised, nuber attendances, number of hours studied etc. is used, which is a CSV File.
-
-
-And a few different classifiers and ML models have been used to get the most accurate predictions of which factors,
-affect the marks of students.
-
-A few visual aids like graphs and confusion matrix have been created, to show the results.
-# Student-Performance-Prediction-and-Visualization-Dashboard
-# Student-Performance-Prediction-and-Visualization-Dashboard
